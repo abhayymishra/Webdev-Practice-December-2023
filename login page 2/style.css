@@ -1,0 +1,10 @@
+body {
+   background: url(images/school-login.jpg) no-repeat center top;
+   background-size: cover;
+   position: fixed;
+   min-height: 100%; 
+}
+
+.container .pp .form1 {
+    background: url(images/frm-src1.png) no-repeat center;
+}

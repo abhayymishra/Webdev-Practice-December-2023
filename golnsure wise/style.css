@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: theme-font1;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: theme-font2;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+:root {
+    --primary-color: #76868B;
+    --heading-color: #212121;
+    --dark-green: #42707F;
+    --light-green: #089F60;
+    --medium-green: #008F53;
+    --section-color: #F9F9F9;
+    --footer-dark-green: #1B2C31;
+}
+
+body ul li {
+    list-style: none;
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+.light-violet-bg {
+    background: var(--section-color);
+}
+
+.grey-text {
+    color: #76868B;
+}
+
+.callnow-color {
+    color: #42707f;
+    font-family: theme-font1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-text {
+    color: #089F60;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: theme-font1;
+}
+
+.become-agent-text {
+    padding-left: 24px;
+    color: #42707f;
+    font-family: theme-font1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+::selection {
+    background: black;
+    color: #fff;
+}
+
+nav {
+    background: var(--section-color);
+}
+
+header nav {
+    border-bottom: 1px solid #ededed;
+}
+
+.header-nav {
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.header-nav img {
+    width: 177px;
+    height: 70px;
+}
+
+
+header .pre-nav .col-xl-6:last-child a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-nav .col-xl-9 .btn {
+    width: 143px;
+    padding: 16px 10px;
+    border-radius: 8px;
+    background-color: var(--dark-green);
+    color: white;
+    margin-left: 32px;
+}
+
+.header-nav .col-xl-9 ul li {
+    padding-left: 32px;
+}
+
+.header-nav .col-xl-9 ul :nth-child(2),
+:nth-child(3),
+:nth-child(4) {
+    font-family: theme-font1;
+    font-size: 18px;
+    font-weight: 400px;
+    color: var(#76868B);
+}
+
+.header-nav .col-xl-9 ul:first-child {
+    color: var(--dark-green);
+    font-weight: 600px;
+    font-family: theme-font1;
+    font-size: 18px;
+}
+
+.banner-sec .banner-text .btn {
+    width: 143px;
+    padding: 16px 10px;
+    border-radius: 8px;
+    background-color: var(--dark-green);
+    color: white;
+}
+
+.banner-sec .banner-text a {
+    font-size: 18px;
+    font-family: theme-font1;
+    font-weight: 700px;
+}
+
+.banner-sec .col-xl-6:last-child img {
+    width: 410px;
+    height: 590px;
+}
+
+.banner-sec .banner-text {
+    margin-top: 100px;
+}
+
+.banner-sec .banner-text h1 {
+    font-size: 52px;
+    font-family: theme-font2;
+    font-weight: 600px;
+    color: var(--heading-color);
+}
+
+.banner-sec .banner-text p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: theme-font1;
+    color: var(--primary-color);
+}
+
+.banner-sec .col-xl-6:last-child {
+    margin-top: 8px;
+    z-index: 9;
+}
+
+/*.banner-sec .col-xl-6:last-child img{
+    background: url(images/banner-image-rectangle.png);
+}*/
+
+.banner-sec .col-xl-6 .banner-image-rectangle {
+    position: absolute;
+    z-index: -1;
+    right: 150px;
+    top: 40px;
+}
+
+.banner-sec .banner-star {
+    width: 69px !important;
+    height: 76px !important;
+    top: 500px;
+    right: 525px;
+}
+
+.banner-foot .col-xl-6 {
+    margin-top: 84px;
+}
+
+.banner-foot .banner-foot-text {
+    width: 562px;
+    font-size: 48px;
+    font-family: theme-font1;
+    font-weight: 600;
+    line-height: 65px;
+    color: var(--heading-color);
+}
+
+.banner-foot .btn {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #42707F;
+    border-radius: 50%;
+}
+
+.banner-foot .btn2 {
+    background-color: var(--dark-green);
+}
+
+.banner-foot .btn1 img {
+    right: 180px;
+}
+
+.banner-foot .btn2 img {
+    right: 120px;
+}
+
+.card-sec {
+    margin-bottom: 120px;
+}
+
+.card-sec .col-xl-4 img:first-child {
+    width: 400px;
+    height: 239px;
+}
+
+.card-sec .col-xl-4 .card-heading {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: theme-font1;
+    color: var(--heading-color);
+}
+
+.card-sec .col-xl-4 .card-heading+p {
+    font-family: theme-font1;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.card-sec .col-xl-4 img:last-child span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: theme-font1;
+    color: #000;
+}
+
+.card-sec .col-xl-4 a {
+    border: 1px solid #42707F;
+    border-radius: 8px;
+    padding: 16px 10px;
+}
+
+.card-sec .reliable-insurance-logo-container {
+    padding: 8px;
+    border-radius: 100px;
+    border: 1px solid rgba(165, 242, 219, 0.40);
+    background: rgba(238, 255, 250, 0.80);
+}
+
+.card-sec .reliable-insurance-logo-container img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.features-sec {
+    margin-top: 84px;
+}
+
+.features-sec .feature-icon span {
+    padding: 6px 16px;
+    border-radius: 100px;
+    background: rgba(66, 112, 127, 0.06);
+    color: var(--Primary, #42707F);
+    text-align: center;
+    font-family: theme-font1;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.features-sec .container span {
+    color: #212121;
+    font-family: theme-font1;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.features-sec .container span+p {
+    color: #76868B;
+    text-align: center;
+    font-family: theme-font1;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.expense-medicare-sec {
+    background: #F9F9F9;
+}
+
+.expense-medicare-sec .expense-medicare-div-block {
+    margin-top: 84px;
+}
+
+.expense-medicare-sec .expense-text-block span:first-child {
+    color: #008F53;
+    text-align: center;
+    font-family: theme-font1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.expense-medicare-sec .expense-text-block span:nth-child(2) {
+    color: #212121;
+    font-family: theme-font1;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.expense-medicare-sec .expense-text-block p {
+    color: #76868B;
+    font-family: theme-font1;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 705px;
+}
+
+.expense-medicare-sec .expense-text-block a {
+    display: flex;
+    width: 143px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #42707F;
+    color: #FFF;
+    text-align: center;
+    font-family: theme-font1;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.expense-medicare-sec .container .row:last-child {
+    margin-top: 100px;
+}
+
+.expense-medicare-sec .expense-medicare-footer .row {
+    background: url(images/green-rectangle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 80px;
+}
+
+.expense-medicare-sec .expense-medicare-footer .col-lg-6:first-child span {
+    color: #FFF;
+    font-family: theme-font1;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.expense-medicare-sec .expense-medicare-footer .col-lg-6:first-child p {
+    color: #FFF;
+    font-family: theme-font1;
+    font-size: 20px;
+    font-weight: 400;
+    width: 470px;
+}
+
+.expense-medicare-sec .expense-medicare-footer .col-lg-6:nth-child(2) .text-1 .text-center {
+    color: #FFF;
+    font-family: theme-font1;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+.expense-medicare-sec .expense-medicare-footer .col-lg-6:nth-child(2) .text-1 .plus {
+    color: #FCC100;
+    font-family: theme-font1;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.expense-medicare-sec .expense-medicare-footer .col-lg-6:nth-child(2) .text-1 span+span {
+    color: #FFF;
+    font-family: theme-font1;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.faq-sec {
+    background-color: #fff;
+    padding-top: 84px;
+}
+
+.faq-sec .faq-title {
+    color: #212121;
+    font-family: theme-font1;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.faq-sec .ques-block span {
+    color: #42707F;
+    font-family: theme-font1;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.faq-sec .ques-block {
+    padding-top: 32px;
+}
+
+.faq-sec .ques-block p {
+    color: #76868B;
+    font-family: theme-font1;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faq-sec .ques-block img {
+    right: 250px;
+}
+
+.faq-sec .ques-div {
+    max-width: 830px;
+}
+
+.faq-sec .hr-rule {
+    background: #DEE2E8;
+    height: 1px;
+}
+
+.expense-medicare-sec .singlepost-advertise-div {
+    background: blue;
+    border-radius: 24px;
+    position: relative;
+    padding: 35px;
+    margin: 40px 0;
+}
+
+.expense-medicare-sec .singlepost-adversub {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hamburger {
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.block {
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: -25%;
+    transition: ease-out 1s;
+}
+
+.block h2 {
+    color: #fff;
+    padding: 25px;
+}
+
+.block ul {
+    color: #fff;
+    list-style: none;
+}
+
+.block ul li {
+    padding: 10px;
+}
+
+.block span{
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.smenu {
+    left: 0%;
+}

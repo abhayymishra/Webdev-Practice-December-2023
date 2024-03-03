@@ -1,0 +1,98 @@
+.main {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-spacing: 0;
+  font-family: sans-serif;
+}
+
+.terms-header {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.pledge-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.pledge-info td {
+  margin-bottom: 50px;
+}
+
+.all-conditions {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 840px;
+  margin-bottom: 50px;
+}
+
+.all-conditions td {
+  margin-bottom: 40px;
+}
+
+.checkbox-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-block .checkbox {
+  height: 17px;
+  background-color: blue;
+  padding-right: 15px;
+}
+
+.checkbox-block td {
+  display: flex;
+}
+
+.checkbox-block span {
+  padding-left: 10px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 944px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.button-section #btn {
+  width: 100%;
+  height: 50px;
+}
+
+.button-section .agree-button {
+  background: rgb(38, 197, 38);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button-section .decline-button {
+  background: red;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.applicant-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-left: 45px;
+}
+
+.applicant-other-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+}
+
+.applicant-other-details td {
+  padding-bottom: 10px;
+}

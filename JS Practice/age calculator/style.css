@@ -1,0 +1,30 @@
+.calculate {
+  max-width: 600px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.calculate-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(105, 105, 187);
+    cursor: pointer;
+    border: none;
+    height: 30px;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: 600;
+}
